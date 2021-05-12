@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33413" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:57:32 IST">
+    <groups>
+      <group name="Regresssion_Test_Case">
+        <method signature="TestNg_Priority.Create_Deposit_Account_Pages_Tests()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Create_Deposit_Account_Pages_Tests" class="Test_Pages.TestNg_Priority"/>
+      </group> <!-- Regresssion_Test_Case -->
+      <group name="System_Testing_Cases">
+        <method signature="TestNg_Priority.Make_Deposit_To_Accounts_Pages_Tests()[pri:1, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Make_Deposit_To_Accounts_Pages_Tests" class="Test_Pages.TestNg_Priority"/>
+      </group> <!-- System_Testing_Cases -->
+      <group name="Smoke_Test_Case">
+        <method signature="TestNg_Priority.Create_Deposit_Account_Pages_Tests()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Create_Deposit_Account_Pages_Tests" class="Test_Pages.TestNg_Priority"/>
+      </group> <!-- Smoke_Test_Case -->
+    </groups>
+    <test name="Default test" duration-ms="33413" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:57:32 IST">
+      <class name="Test_Pages.TestNg_Priority">
+        <test-method status="PASS" signature="open_Browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="open_Browser" is-config="true" duration-ms="4" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:56:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser -->
+        <test-method status="PASS" signature="Create_Deposit_Account_Pages_Tests()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Create_Deposit_Account_Pages_Tests" duration-ms="13395" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:57:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Deposit_Account_Pages_Tests -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="close_browser" is-config="true" duration-ms="0" started-at="2021-05-12T09:57:12 IST" finished-at="2021-05-12T09:57:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="open_Browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="open_Browser" is-config="true" duration-ms="1" started-at="2021-05-12T09:57:12 IST" finished-at="2021-05-12T09:57:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser -->
+        <test-method status="PASS" signature="Make_Deposit_To_Accounts_Pages_Tests()[pri:1, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Make_Deposit_To_Accounts_Pages_Tests" duration-ms="19973" started-at="2021-05-12T09:57:12 IST" depends-on-methods="Test_Pages.TestNg_Priority.Create_Deposit_Account_Pages_Tests" finished-at="2021-05-12T09:57:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Make_Deposit_To_Accounts_Pages_Tests -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="close_browser" is-config="true" duration-ms="1" started-at="2021-05-12T09:57:32 IST" finished-at="2021-05-12T09:57:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Test_Pages.TestNg_Priority -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

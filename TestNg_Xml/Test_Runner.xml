@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="Smoke Test" >
+     
+       <groups> 
+       		<run>
+       			<include name="System_Testing_Cases" />
+       			<include name="Regresssion_Test_Case" />
+       			   			
+	         </run>
+	   </groups>    
+	
+	   <classes>
+	   		<class name = "Test_Pages.TestNg_Priority" />
+	   </classes>
+	   		    
+   </test>
+ </suite>
