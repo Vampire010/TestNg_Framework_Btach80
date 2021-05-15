@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel Testing Suite]">
+  <test thread-count="5" name="Parallel Tests(failed)" parallel="classes">
+    <classes>
+      <class name="Test_Pages.TestNg_Priority">
+        <methods>
+          <include name="Make_Deposit_To_Accounts_Pages_Tests"/>
+          <include name="open_Browser"/>
+          <include name="close_browser"/>
+          <include name="Create_Deposit_Account_Pages_Tests"/>
+        </methods>
+      </class> <!-- Test_Pages.TestNg_Priority -->
+    </classes>
+  </test> <!-- Parallel Tests(failed) -->
+</suite> <!-- Failed suite [Parallel Testing Suite] -->

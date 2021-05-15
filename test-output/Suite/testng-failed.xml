@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ChromeTest(failed)" parallel="methods">
+    <parameter name="Browser_Types" value="chrome"/>
+    <classes>
+      <class name="Test_Pages.Multi_Brow_Login_Page_Tests">
+        <methods>
+          <include name="open_Browser"/>
+          <include name="close_browser"/>
+          <include name="Login_Page_Tests_Chrome"/>
+        </methods>
+      </class> <!-- Test_Pages.Multi_Brow_Login_Page_Tests -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

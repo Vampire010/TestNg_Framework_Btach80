@@ -2,6 +2,7 @@ package Test_Pages;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import Browser_Config.Browser_Launcher;
@@ -13,10 +14,12 @@ import Page_Locaters.Kb_Regestartion_Page;
 public class TestNg_Priority
 {
 	
+	
 	 Regestartion_Page_Test RGST = new Regestartion_Page_Test();
 	 Create_Deposit_Account_Tests CDAT = new Create_Deposit_Account_Tests();
 	 Make_Deposit_To_Accounts_Page_Test MKDPST = new Make_Deposit_To_Accounts_Page_Test();
 	
+
 	@BeforeMethod
 	public  void open_Browser() throws InterruptedException
 	{			

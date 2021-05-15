@@ -1,46 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33413" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:57:32 IST">
+  <suite name="Default suite" duration-ms="19689" started-at="2021-05-15T17:23:20 IST" finished-at="2021-05-15T17:23:39 IST">
     <groups>
-      <group name="Regresssion_Test_Case">
-        <method signature="TestNg_Priority.Create_Deposit_Account_Pages_Tests()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Create_Deposit_Account_Pages_Tests" class="Test_Pages.TestNg_Priority"/>
-      </group> <!-- Regresssion_Test_Case -->
-      <group name="System_Testing_Cases">
-        <method signature="TestNg_Priority.Make_Deposit_To_Accounts_Pages_Tests()[pri:1, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Make_Deposit_To_Accounts_Pages_Tests" class="Test_Pages.TestNg_Priority"/>
-      </group> <!-- System_Testing_Cases -->
-      <group name="Smoke_Test_Case">
-        <method signature="TestNg_Priority.Create_Deposit_Account_Pages_Tests()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Create_Deposit_Account_Pages_Tests" class="Test_Pages.TestNg_Priority"/>
-      </group> <!-- Smoke_Test_Case -->
     </groups>
-    <test name="Default test" duration-ms="33413" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:57:32 IST">
-      <class name="Test_Pages.TestNg_Priority">
-        <test-method status="PASS" signature="open_Browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="open_Browser" is-config="true" duration-ms="4" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:56:59 IST">
+    <test name="Default test" duration-ms="19689" started-at="2021-05-15T17:23:20 IST" finished-at="2021-05-15T17:23:39 IST">
+      <class name="DDT.Login_Test_Scenarios">
+        <test-method status="PASS" signature="open_Browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="open_Browser" is-config="true" duration-ms="3464" started-at="2021-05-15T17:23:20 IST" finished-at="2021-05-15T17:23:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_Browser -->
-        <test-method status="PASS" signature="Create_Deposit_Account_Pages_Tests()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Create_Deposit_Account_Pages_Tests" duration-ms="13395" started-at="2021-05-12T09:56:59 IST" finished-at="2021-05-12T09:57:12 IST">
+        <test-method status="PASS" signature="Login_Page_Tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="Login_Page_Tests" duration-ms="2293" started-at="2021-05-15T17:23:24 IST" data-provider="Authentication" finished-at="2021-05-15T17:23:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[67674]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[banker]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jack1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Create_Deposit_Account_Pages_Tests -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="close_browser" is-config="true" duration-ms="0" started-at="2021-05-12T09:57:12 IST" finished-at="2021-05-12T09:57:12 IST">
+        </test-method> <!-- Login_Page_Tests -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="close_browser" is-config="true" duration-ms="1" started-at="2021-05-15T17:23:26 IST" finished-at="2021-05-15T17:23:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
-        <test-method status="PASS" signature="open_Browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="open_Browser" is-config="true" duration-ms="1" started-at="2021-05-12T09:57:12 IST" finished-at="2021-05-12T09:57:12 IST">
+        <test-method status="PASS" signature="open_Browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="open_Browser" is-config="true" duration-ms="3221" started-at="2021-05-15T17:23:26 IST" finished-at="2021-05-15T17:23:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open_Browser -->
-        <test-method status="PASS" signature="Make_Deposit_To_Accounts_Pages_Tests()[pri:1, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="Make_Deposit_To_Accounts_Pages_Tests" duration-ms="19973" started-at="2021-05-12T09:57:12 IST" depends-on-methods="Test_Pages.TestNg_Priority.Create_Deposit_Account_Pages_Tests" finished-at="2021-05-12T09:57:32 IST">
+        <test-method status="PASS" signature="Login_Page_Tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="Login_Page_Tests" duration-ms="419" started-at="2021-05-15T17:23:29 IST" data-provider="Authentication" finished-at="2021-05-15T17:23:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jon202021]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Make_Deposit_To_Accounts_Pages_Tests -->
-        <test-method status="PASS" signature="close_browser()[pri:0, instance:Test_Pages.TestNg_Priority@6f195bc3]" name="close_browser" is-config="true" duration-ms="1" started-at="2021-05-12T09:57:32 IST" finished-at="2021-05-12T09:57:32 IST">
+        </test-method> <!-- Login_Page_Tests -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="close_browser" is-config="true" duration-ms="1" started-at="2021-05-15T17:23:30 IST" finished-at="2021-05-15T17:23:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_browser -->
-      </class> <!-- Test_Pages.TestNg_Priority -->
+        <test-method status="PASS" signature="open_Browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="open_Browser" is-config="true" duration-ms="3162" started-at="2021-05-15T17:23:30 IST" finished-at="2021-05-15T17:23:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser -->
+        <test-method status="PASS" signature="Login_Page_Tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="Login_Page_Tests" duration-ms="356" started-at="2021-05-15T17:23:33 IST" data-provider="Authentication" finished-at="2021-05-15T17:23:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Girish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[girish010.]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ram23456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page_Tests -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="close_browser" is-config="true" duration-ms="1" started-at="2021-05-15T17:23:33 IST" finished-at="2021-05-15T17:23:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="open_Browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="open_Browser" is-config="true" duration-ms="2740" started-at="2021-05-15T17:23:33 IST" finished-at="2021-05-15T17:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser -->
+        <test-method status="PASS" signature="Login_Page_Tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="Login_Page_Tests" duration-ms="345" started-at="2021-05-15T17:23:36 IST" data-provider="Authentication" finished-at="2021-05-15T17:23:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jon120*]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[joe34567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page_Tests -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="close_browser" is-config="true" duration-ms="0" started-at="2021-05-15T17:23:36 IST" finished-at="2021-05-15T17:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+        <test-method status="PASS" signature="open_Browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="open_Browser" is-config="true" duration-ms="2812" started-at="2021-05-15T17:23:36 IST" finished-at="2021-05-15T17:23:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_Browser -->
+        <test-method status="PASS" signature="Login_Page_Tests(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="Login_Page_Tests" duration-ms="335" started-at="2021-05-15T17:23:39 IST" data-provider="Authentication" finished-at="2021-05-15T17:23:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[smith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[smith786]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[smither20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Page_Tests -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:DDT.Login_Test_Scenarios@4524411f]" name="close_browser" is-config="true" duration-ms="1" started-at="2021-05-15T17:23:39 IST" finished-at="2021-05-15T17:23:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- DDT.Login_Test_Scenarios -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
